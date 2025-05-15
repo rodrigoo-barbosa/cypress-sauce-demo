@@ -1,13 +1,7 @@
 
-<<<<<<< HEAD
-## ⚙️ Testes Automatizados - SauceDemo utilizando Playwright
-
-Este projeto contém testes automatizados criados com **Playwright**, utilizando **Node.js** e **Visual Studio Code**, aplicados na aplicação de demonstração [SauceDemo](https://www.saucedemo.com/).
-=======
-## ⚙️ Testes Automatizados - SauceDemo (Cypress)
+## ⚙️ Testes Automatizados - SauceDemo utilizando Cypress
 
 Este projeto contém testes automatizados criados com **Cypress**, utilizando **Node.js** e **Visual Studio Code**, aplicados na aplicação de demonstração [SauceDemo](https://www.saucedemo.com/).
->>>>>>> 278c640 (Adicionando projeto Cypress saucedemo)
 
 ---
 
@@ -85,11 +79,7 @@ Este projeto contém testes automatizados criados com **Cypress**, utilizando **
 
 ## 🛠️ Tecnologias Utilizadas
 
-<<<<<<< HEAD
-- Playwright
-=======
 - Cypress
->>>>>>> 278c640 (Adicionando projeto Cypress saucedemo)
 - Node.js
 - JavaScript
 - Visual Studio Code
@@ -100,57 +90,26 @@ Este projeto contém testes automatizados criados com **Cypress**, utilizando **
 
 ### Pré-requisitos:
 - Node.js instalado
-<<<<<<< HEAD
-- Playwright instalado (`npx playwright install`)
-=======
 - Cypress instalado (`npm install cypress`)
->>>>>>> 278c640 (Adicionando projeto Cypress saucedemo)
 
 ### Passos:
 1. Clone o repositório:
 ```bash
-<<<<<<< HEAD
-git clone https://github.com/rodrigoo-barbosa/playwright-sauce-demo
-=======
-git clone https://github.com/seu-usuario/seu-repositorio.git
->>>>>>> 278c640 (Adicionando projeto Cypress saucedemo)
+git clone https://github.com/rodrigoo-barbosa/cypress-sauce-demo.git
 ```
 2. Acesse a pasta do projeto:
 ```bash
-cd nome-do-projeto
+cd cypress-sauce-demo
 ```
 3. Instale as dependências:
 ```bash
 npm install
 ```
-<<<<<<< HEAD
-4. Execute todos os testes com navegador visível:
-```bash
-npx playwright test --headed
-```
-5. Execute um teste específico:
-```bash
-npx playwright test tests/login-usuario-vazio.spec.js --headed
-```
-6. Ou use a interface interativa:
-```bash
-npx playwright test --ui
-```
-
----
-
-## 📈 Recursos adicionais do Playwright
-
-- Suporte a múltiplos navegadores (Chromium, Firefox, WebKit)
-- Execução em paralelo por padrão
-- Relatórios HTML automáticos com `--reporter html`
-=======
 4. Execute o Cypress:
 ```bash
 npx cypress open
 ```
 5. Clique no arquivo de teste desejado para executá-lo pela interface
->>>>>>> 278c640 (Adicionando projeto Cypress saucedemo)
 
 ---
 
